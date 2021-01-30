@@ -1,12 +1,11 @@
 $().fancybox({
   selector: '.main-owl .owl-item:not(.cloned) a',
-  hash: false,
+  // hash: false,
   toolbar: "auto",
   thumbs: {
     autoStart: true
   },
   buttons: [
-    'zoom',
     'download',
     'close',
     'share',
@@ -19,7 +18,7 @@ $().fancybox({
 $(document).ready(function () {
   var mainOwl = $("#main-owl");
   var secondOwl = $("#second-owl");
-  var slidesPerPage = 3;
+  var slidesPerPage = 5;
   var syncedSecondary = true;
 
   mainOwl.owlCarousel({
