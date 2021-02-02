@@ -3,7 +3,7 @@ $().fancybox({
   // hash: false,
   toolbar: "auto",
   thumbs: {
-    autoStart: true
+    autoStart: false
   },
   buttons: [
     'download',
